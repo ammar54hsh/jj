@@ -77,14 +77,14 @@ async def start_(client: Client, message: Message):
                     ],
                 [
                     InlineKeyboardButton("‹ اوامر التشغيل › ", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton(" المطور", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ لتنصيب بوت ›", url=f"https://t.me/EITHON1/819"
+                        "‹ لتنصيب بوت ›",https://t.me/SX3i3"
                     ),
                 ],
                 [
