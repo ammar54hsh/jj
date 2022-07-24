@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
+  Copyright (C) 2021 By Veez Music-Project
 # Commit Start Date 20/10/2021
 # Finished On 28/10/2021
 
@@ -94,7 +94,7 @@ async def play(c: Client, m: Message):
                 try:
                     await user.join_chat(m.chat.username)
                 except Exception as e:
-                    await m.reply_text(f"❌ **فِّشٍلَ فِّيِّ أّلَأّنِضّمَأّمَ𖠉**\n\n**السبب**: `{e}`")
+                    await m.reply_text(f"❌ **فشل في الأنضمام𖠉**\n\n**السبب**: `{e}`")
                     return
             else:
                 try:
@@ -110,7 +110,7 @@ async def play(c: Client, m: Message):
                     pass
                 except Exception as e:
                     return await m.reply_text(
-                        f"❌ **فِّشٍلَ فِّيِّ أّلَأّنِضّمَأّمَ𖠉**\n\n**السبب**: `{e}`"
+                        f"❌ **فشل في الانضمام𖠉**\n\n**السبب**: `{e}`"
                     )
         if replied:
             if replied.audio or replied.voice:
@@ -155,18 +155,18 @@ async def play(c: Client, m: Message):
                         )
                     except Exception as e:
                         await suhu.delete()
-                        await m.reply_text(f"🚫 حٌدِثّ خَطّأ تّأګدِ مَنِ أّلَمَګأّلَمَهِ مَفِّتّوِحٌهِ  أّوِلَآ:\n\n» {e}")
+                        await m.reply_text(f"🚫 حدث خطأ تأڪد من المكالمه مفتوحه اولا:\n\n» {e}")
             else:
                 if len(m.command) < 2:
                     await m.reply(
-                        "»قِمَ بِأّلَڒٍدِ عٌ  مَلَفِّ صٌوِتّيِّ  أوِ  أګتّبِ شٍيِّئًأّ لَلَبِحٌثّ**"
+                        "»لو تࢪد ؏ــلئ ملف صوتي لو تنطيني شيئ للبحث **"
                     )
                 else:
-                    suhu = await c.send_message(chat_id, "🔍**جِأّڒٍيِّ أّلَبِحٌثّ...**")
+                    suhu = await c.send_message(chat_id, "🔍**جاࢪي البحث...**")
                     query = m.text.split(None, 1)[1]
                     search = ytsearch(query)
                     if search == 0:
-                        await suhu.edit("❌ **لَمَ يِّتّمَ أّلَعٌثّوِڒٍ عٌلَىّ نِتّأّئجِ.**")
+                        await suhu.edit("❌ **لـم يتم العثوࢪ ؏ـلى نتائج.**")
                     else:
                         songname = search[0]
                         url = search[1]
@@ -190,7 +190,7 @@ async def play(c: Client, m: Message):
                                 )
                             else:
                                 try:
-                                    await suhu.edit("🔄 ** يِّمَ أّلَأّنِضّمَأّمَ لَلَمَګأّلَمَهِ وِأّلَتّشٍغٌيِّلَ...**")
+                                    await suhu.edit("🔄 ** تم الأنضمام للمڪالمه والتشغيل...**")
                                     await call_py.join_group_call(
                                         chat_id,
                                         AudioPiped(
@@ -208,19 +208,19 @@ async def play(c: Client, m: Message):
                                     )
                                 except Exception as ep:
                                     await suhu.delete()
-                                    await m.reply_text(f"🚫 حٌدِثّ خَطّأ تّأّګدِ مَنِ أّلَمَګأّلَمَهِ مَفِّتّوِحٌهِ  أّوِلَآ: `{ep}`")
+                                    await m.reply_text(f"🚫 حدث خطأ تاڪد من المڪالمه مفتوحه اولا: `{ep}`")
 
         else:
             if len(m.command) < 2:
                 await m.reply(
-                    "» أّلَڒٍدِ عٌلَىّ ** مَلَفِّ صٌوِتّيِّ  ** أو ** أعٌطّ شٍيِّئًأّ لَلَبِحٌثّ.**"
+                    "• ألـࢪد ** مـلف صوتي  ** أو ** أعطي شيأ للبحث.**"
                 )
             else:
-                suhu = await c.send_message(chat_id, "🔍**يِّبِحٌثّ...**")
+                suhu = await c.send_message(chat_id, "🔍**جـاࢪي البحث...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
-                    await suhu.edit("❌ **لَمَ يِّتّمَ أّلَعٌثّوِڒٍ عٌلَىّ نِتّأّئجِ.**")
+                    await suhu.edit("❌ **لـم يتم العـثوࢪ ؏ـلى نتائج.**")
                 else:
                     songname = search[0]
                     url = search[1]
