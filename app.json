@@ -1,7 +1,7 @@
 {
-    "name": "Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون",
+    "name": "نيثون",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/e9258f1ae714616d2cdbb.jpg",
+    "logo":"https://telegra.ph/file/515208fbebd0d0ecacb78.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/EITHON1",
-    "repository": "https://github.com/pqnzbmmwQ92/ll",
-    "success_url": "https://t.me/EITHMU1",
+    "website": "https://t.me/NITH0N",
+    "repository": "https://github.com/pqnzbmmwQ92/jj/network/members",
+    "success_url": "https://t.me/NITH0N",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -30,12 +30,12 @@
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "XDCDBOT"
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "F_3FFF"
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -44,22 +44,22 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": ""
+            "value": "5352935463"
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "TI99TI"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "TI9TI9"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": ""
+            "value": "vrrrvrr"
         },
         "BOT_PHOTO": {
             "description": "ضع لينك صورة البوت ",
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/pqnzbmmwQ92/ll"
+            "value": "https://github.com/pqnzbmmwQ92/jj/network/members"
         }
     },
     "addons": [],
