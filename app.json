@@ -1,5 +1,5 @@
 {
-    "name": "نيثون",
+    "name": "نيثون ميوزك",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
     "logo": "https://telegra.ph/file/515208fbebd0d0ecacb78.jpg",
     "keywords": [
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/EITHON1",
-    "repository": "https://github.com/pqnzbmmwQ92/ll",
-    "success_url": "https://t.me/EITHMU1",
+    "website": "https://t.me/NITH0N",
+    "repository": "https://github.com/ammar54hsh/jj",
+    "success_url": "https://t.me/NITH0N",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -62,15 +62,15 @@
             "value": ""
         },
         "BOT_PHOTO": {
-            "description": "ضع لينك صورة البوت ",
+            "description": "ضع رابط صورة البوت ",
             "required": true
         },
         "DEV_PHOTO": {
-            "description": "ضع لينك صورة حساب مطور البوت",
+            "description": "ضع رابط صورة حساب مطور البوت",
             "required": true
         },
         "DEV_NAME": {
-            "description": "ضع اسم حساب التليجرام الخاص بالمطور",
+            "description": "ضع اسم حساب التليكرام الخاص بالمطور",
             "required": true
         },
         "ALIVE_NAME": {
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/pqnzbmmwQ92/ll"
+            "value": "https://github.com/ammar54hsh/jj"
         }
     },
     "addons": [],
