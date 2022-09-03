@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ لتنصيب بوت ›", url=f"https://t.me/EITHON1/819"
+        ‹ لتنصيب بوت ›", https://t.me/NITH0N
                     ),
                 ],
                 [
@@ -106,11 +106,11 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("℡ ᯓ Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("نيثون ™𝗡𝗜𝗧𝗛𝗢𝗡 •", url=f"https://t.me/EITHON1"),
             ],
             [
                 InlineKeyboardButton(
-                    "-محمد .", url=f"https://t.me/M_Z_Z_N"
+                    "-فولتر .", url=f"https://t.me/vrrrvrr"
                 ),
             ],
             [
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓌹℡ ᯓ Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("نيثون ™𝗡𝗜𝗧𝗛𝗢𝗡 •", url=f"https://t.me/EITHON1"),
             ],
             [
                 InlineKeyboardButton(
