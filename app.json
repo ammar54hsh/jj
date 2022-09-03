@@ -47,7 +47,7 @@
             "value": ""
         },
         "GROUP_SUPPORT": {
-            "description": "ضع هنا يوزر جروبك بدون علامة @",
+            "description": "ضع هنا يوزر كروبك بدون علامة @",
             "required": true,
             "value": ""
         },
